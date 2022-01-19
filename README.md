@@ -8,7 +8,7 @@ On Shopify, we have exactly 100 sneaker shops, and each of these shops sells onl
 
 #1. Think about what could be going wrong with our calculation. Think about a better way to evaluate this data.
 
-	The calculation of AOV might get wrong because the total amount of orders might be calculated with the COUNT() function, so the total amount of orders will be the number of rows. I think when I  need to get total amount of orders, I would use SUM() function on total_items, then I’ll get the correct answer for AOV
+The calculation of AOV might get wrong because the total amount of orders might be calculated with the COUNT() function, so the total amount of orders will be the number of rows. I think when I  need to get total amount of orders, I would use SUM() function on total_items, then I’ll get the correct answer for AOV
 
 #2. What metric would you report for this dataset?
 
