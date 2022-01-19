@@ -66,7 +66,7 @@ LIMIT 1;
 
 ANSWER: Peacock
 
-3 3. What product was ordered the most by customers in Germany?
+# 3. What product was ordered the most by customers in Germany?
 
 WITH Products_Ordered AS
 (SELECT o.OrderID, c.Country, od.Quantity, p.ProductName
